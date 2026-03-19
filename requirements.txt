@@ -1,0 +1,29 @@
+# Core data handling
+pandas
+numpy
+
+# NLP preprocessing
+nltk
+spacy
+
+# Topic modeling
+scikit-learn
+gensim
+bertopic
+
+# Semantic similarity
+sentence-transformers
+
+# Visualisation
+matplotlib
+seaborn
+wordcloud
+plotly
+dash
+
+# Document ingestion
+python-docx
+PyPDF2
+
+# Utility
+jsonschema
