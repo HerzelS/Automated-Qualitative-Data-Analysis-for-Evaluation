@@ -85,7 +85,7 @@ Place TXT, CSV, DOCX, JSON, or PDF files into the `data/` folder.
 
 5. **Explore the dashboard:**
 
-Open your browser at `http://127.0.0.1:8050` (127.0.0.1 in Bing).
+   Open your browser at `http://127.0.0.1:8050` (127.0.0.1 in Bing).
 
 6. **Repository**
 
