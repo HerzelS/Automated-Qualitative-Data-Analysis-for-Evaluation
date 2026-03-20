@@ -2,7 +2,7 @@ import re
 import nltk
 from nltk.corpus import stopwords
 
-nltk.downloads("stopwords")
+nltk.download("stopwords")
 STOPWORDS = set(stopwords.words("english"))
 
 def clean_text(text):
@@ -21,6 +21,7 @@ def clean_text(text):
     
     # Remove stopwords
     tokens = [word for word in text.split() if word not in STOPWORDS]
+    print(text)
     return " ".join(tokens)
 
 def preprocess_texts(texts: list) -> list:
@@ -32,4 +33,3 @@ def preprocess_texts(texts: list) -> list:
         list: A list of cleaned strings.
     """
     return [clean_text(t) for t in texts if isinstance(t, str)]
-    

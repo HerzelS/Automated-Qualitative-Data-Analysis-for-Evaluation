@@ -1,8 +1,8 @@
 import nltk
-from nltk.sentiment import SentimetIntensityAnalyzer
+from nltk.sentiment import SentimentIntensityAnalyzer
 
 nltk.download("vader_lexicon")
-sia = SentimetIntensityAnalyzer()
+sia = SentimentIntensityAnalyzer()
 
 def analyze_sentiment(texts: list) -> list:
     """
