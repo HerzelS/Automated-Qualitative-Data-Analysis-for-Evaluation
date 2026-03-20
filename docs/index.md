@@ -1,6 +1,10 @@
-# Automated Qualitative Analysis for Evaluation
+# AI as a Pivot for Automated Qualitative Analysis in Evaluation
 
-This project demonstrates how natural language processing (NLP) and interactive dashboards can be used to support evaluation practice. It ingests qualitative data from multiple formats, maps responses to established evaluation frameworks (DAC and ALNAP), performs sentiment analysis, and visualizes results for decision‑makers.
+The humanitarian sector is undergoing a profound reset. With shrinking budgets and reductions in personnel, organizations are being asked to deliver more credible results with fewer resources. In this new landscape, evaluation is not just a technical exercise—it is a cornerstone of accountability, transparency, and trust. Stakeholders demand evidence that interventions are relevant, effective, and sustainable, and evaluators must rise to the challenge of demonstrating impact under increasing constraints.
+
+At the same time, the AI revolution is reshaping how knowledge is generated and used. Responsible application of artificial intelligence offers a way to adapt to this new normal: automating routine tasks, surfacing insights from complex qualitative data, and enabling evaluators to focus on interpretation and utilization. By leveraging natural language processing (NLP) and interactive dashboards, this project shows how AI can become a pivot point for evaluation practice—helping professionals map responses to established frameworks (DAC and ALNAP), analyze sentiment, and visualize results in ways that strengthen accountability and decision‑making.
+
+This is not about replacing human judgment, but about augmenting it. Responsible AI use ensures that evaluators can meet rising demands for credible evidence while maintaining ethical standards and contextual sensitivity. In short, AI is not just a tool—it is part of the adaptation strategy for evaluation in a humanitarian sector that must do more with less.
 
 ---
 
@@ -37,6 +41,15 @@ Using transformer embeddings (`sentence-transformers`), responses are matched to
 The VADER sentiment analyzer assigns each response a compound score, indicating whether feedback is broadly positive, negative, or neutral.
 
 ### Visualization
+
+A word cloud showing the most occuring words:
+
+![Word Cloud Screenshot](word_cloud_sample.png)
+
+A sentime distribution:
+
+![Sentiment Distribution Plot Screenshot](sentiment_distribution_sample.png)
+
 
 A Plotly/Dash dashboard displays:
 
