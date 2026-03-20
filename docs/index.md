@@ -89,7 +89,9 @@ Place TXT, CSV, DOCX, JSON, or PDF files into the `data/` folder.
 
 6. **Repository**
 
-View the code on GitHub (github.com in Bing)
+   View the code on GitHub (github.com in Bing)
+
+---
 
 **Citation**
 If you use this project in your evaluation work, please cite:
