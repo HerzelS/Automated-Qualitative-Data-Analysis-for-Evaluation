@@ -4,8 +4,6 @@ import docx
 import json
 import PyPDF2
 
-print("Current working directory:", os.getcwd())
-
 def load_documents_from_directory(directory: str, file_types=("txt", "csv", "docx", "json", "pdf")) -> pd.DataFrame:
     """
     Load document from a specified directory and return a DataFrame with the content.
@@ -60,9 +58,5 @@ def load_documents_from_directory(directory: str, file_types=("txt", "csv", "doc
                                         responses.append(line.strip())
             except Exception as e:
                 print(f"Error processing file {filename}: {e}")
-                
-                
-#a = load_documents_from_directory("data")
-#a 
 
 
