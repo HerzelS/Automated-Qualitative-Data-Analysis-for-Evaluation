@@ -73,8 +73,13 @@ run_pipeline(data_folder="./data", framework="ALNAP")
 
 ## Example Output  
 
-- Bar chart: Number of responses per criterion, colored by average sentiment.
-- Response list: Each response mapped to its criterion, evaluation question, similarity score, and sentiment score.
+A word cloud showing the most occuring words:
+
+![Word Cloud Screenshot](docs/word.png)
+
+A sentiment distribution:
+
+![Sentiment Distribution Plot Screenshot](docs/sentiment.png)
 
 ## Next Steps
 
