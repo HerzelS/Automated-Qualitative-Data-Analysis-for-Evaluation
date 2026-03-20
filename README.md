@@ -18,10 +18,9 @@ automated-qual-analysis/
 │   ├── topic_modeling.py           # BERTopic modeling
 │   ├── sentiment.py                # VADER sentiment analysis
 │   ├── visualization.py            # Wordcloud + sentiment plots
-│   ├── dac_criteria.py             # DAC definitions
+│   ├── evaluation_criteria.py      # DAC and ALNAP definitions
 │   ├── evaluation_questions.py     # DAC evaluation questions
 │   ├── alnap_criteria.py           # ALNAP definitions
-│   ├── alnap_questions.py          # ALNAP evaluation questions
 │   ├── semantic_mapping.py         # Transformer-based semantic mapping
 │   ├── data_loader.py              # Load TXT, CSV, DOCX, JSON, PDF
 │   └── dashboard.py                # Interactive Plotly/Dash dashboard
