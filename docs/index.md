@@ -97,4 +97,4 @@ Place TXT, CSV, DOCX, JSON, or PDF files into the `data/` folder.
 If you use this project in your evaluation work, please cite:
 
 Automated Qualitative Analysis for Evaluation. GitHub repository, 2026.
-<[https://MerzelS.github.io/automated-qual-analysis/](https://github.com/HerzelS/Automated-Qualitative-Data-Analysis-for-Evaluation)> (HerzelS.github.io in Bing)
+<[https://HerzelS.github.io/automated-qual-analysis/](https://github.com/HerzelS/Automated-Qualitative-Data-Analysis-for-Evaluation)> (HerzelS.github.io in Bing)
