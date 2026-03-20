@@ -44,11 +44,11 @@ The VADER sentiment analyzer assigns each response a compound score, indicating 
 
 A word cloud showing the most occuring words:
 
-![Word Cloud Screenshot](word_cloud_sample.png)
+![Word Cloud Screenshot](word.png)
 
 A sentime distribution:
 
-![Sentiment Distribution Plot Screenshot](sentiment_distribution_sample.png)
+![Sentiment Distribution Plot Screenshot](sentiment.png)
 
 
 A Plotly/Dash dashboard displays:
