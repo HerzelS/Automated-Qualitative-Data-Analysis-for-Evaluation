@@ -46,7 +46,9 @@ A word cloud showing the most occuring words:
 
 ![Word Cloud Screenshot](word.png)
 
-A sentime distribution:
+
+
+A sentiment distribution:
 
 ![Sentiment Distribution Plot Screenshot](sentiment.png)
 
