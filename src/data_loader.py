@@ -58,3 +58,5 @@ def load_documents_from_directory(directory: str, file_types=("txt", "csv", "doc
                                         responses.append(line.strip())
             except Exception as e:
                 print(f"Error processing file {filename}: {e}")
+                
+    return pd.DataFrame(responses, columns=["response"])

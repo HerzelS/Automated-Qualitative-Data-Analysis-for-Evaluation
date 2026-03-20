@@ -1,5 +1,7 @@
+
+
 EVAL_QUESTIONS = {
-    "Relevance/Appropriateness": [
+    "Relevance": [
         "Did the intervention meet the urgent needs of affected populations?",
         "Was the design appropriate to the humanitarian context?"
     ],

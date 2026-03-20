@@ -16,9 +16,14 @@ def plot_wordcloud(texts: list):
     plt.show()
     
 def plot_sentiment_distribution(sentiments: list):
-   
+    
+    """"
+    Plot a histogram of sentiment scores.
+    Args:
+         sentiments (list): A list of sentiment scores (e.g., compound scores from VADER).
+    """
     pd.Series(sentiments).hist(bins=20)
-    pd.title("Sentiment Distribution")
+    plt.title("Sentiment Distribution")
     plt.xlabel("Compound Sentiment Score")
     plt.ylabel("Frequency")
     plt.show()

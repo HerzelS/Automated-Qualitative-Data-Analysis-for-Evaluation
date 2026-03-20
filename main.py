@@ -3,6 +3,7 @@ from src.data_loader import load_documents_from_directory as load_documents_from
 from src.preprocessing import preprocess_texts
 from src.sentiment import analyze_sentiment
 from src.sentiment_mapping import map_response_semantic
+from src.visualization import plot_wordcloud, plot_sentiment_distribution
 #from src.dashboard import build_dashboard
 
 def run_pipeline(data_folder="./data", framework="DAC"):
@@ -22,16 +23,23 @@ def run_pipeline(data_folder="./data", framework="DAC"):
 
     print("Analyzing sentiment...")
     df["sentiment"] = analyze_sentiment(df["response"].tolist())
+    
+    print(df[["response", "sentiment"]].head())
 
     print(f"Mapping responses to {framework} criteria...")
     df["mapping"] = df["response"].apply(lambda x: map_response_semantic(x, framework=framework))
+    
+    # Plot word cloud and sentiment distribution
+    print("Generating visualizations...")
+    plot_wordcloud(texts_clean)
+    plot_sentiment_distribution(df["sentiment"])
 
     print("Launching dashboard...")
     # Dashboard expects a CSV path, so we save the processed responses temporarily
     temp_path = data_folder + "/_processed_responses.csv"
     df.to_csv(temp_path, index=False)
-  #  app = build_dashboard(data_path=temp_path)
-  #  app.run_server(debug=True)
+    #app = build_dashboard(data_path=temp_path)
+    #app.run_server(debug=True)
 
 if __name__ == "__main__":
     # Example usage: run pipeline on sample data with DAC framework

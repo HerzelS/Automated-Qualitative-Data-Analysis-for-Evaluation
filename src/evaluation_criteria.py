@@ -12,7 +12,7 @@ DAC_CRITERIA = {
 
 
 ALNAP_CRITERIA = {
-    "Relevance/Appropriateness": "The extent to which the intervention is suited to the priorities and policies of the target group, and whether it is appropriate to the humanitarian context.",
+    "Relevance": "The extent to which the intervention is suited to the priorities and policies of the target group, and whether it is appropriate to the humanitarian context.",
     "Connectedness": "The extent to which activities of a short-term emergency nature take longer-term and interconnected problems into account.",
     "Coherence": "The extent to which there is consistency of policy and practice across humanitarian interventions, and alignment with broader policy frameworks.",
     "Coverage": "The extent to which the intervention reaches all major population groups facing life-threatening suffering, wherever they are.",
